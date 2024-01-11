@@ -15,7 +15,6 @@
 
 // Include configs
 #include "config.h"
-#include "config.def.h"
 
 #define FLAGLENGTH 32
 

@@ -10,7 +10,7 @@ TARGET = cheat
 main: main.o
 	$(CC) $(CFLAGS) -o cheat main.o
 
-main.o: main.cpp config.def.h config.h
+main.o: main.cpp config.h
 	$(CC) $(CFLAGS) -c main.cpp
 
 clean:
