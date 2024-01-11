@@ -1,5 +1,6 @@
 # Executables
 *.exe
+main.o
 
 # test config
 config.h
