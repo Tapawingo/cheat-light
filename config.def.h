@@ -1,6 +1,6 @@
 #ifndef FILESYSTEM
-// #include <filesystem>
+    #include <filesystem>
 #endif
 
-// const std::filesystem::path srcDir = "%localappdata%/cheat";
-const std::string srcDir = "%LOCALAPPDATA%/cheat";
+std::filesystem::path APPDATA = std::getenv("LOCALAPPDATA");
+const std::filesystem::path sourceDirectory = APPDATA / "cheat";

@@ -1,6 +1,6 @@
-# Executables
+# Binaries
 *.exe
-main.o
+*.o
 
 # test config
 config.h
