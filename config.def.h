@@ -1,5 +1,6 @@
-#ifndef STRING
-#include <string>
+#ifndef FILESYSTEM
+// #include <filesystem>
 #endif
 
-const string sourceDirectory = "%localappdata%\\cheat";
+// const std::filesystem::path srcDir = "%localappdata%/cheat";
+const std::string srcDir = "%LOCALAPPDATA%/cheat";
