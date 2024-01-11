@@ -2,7 +2,7 @@
 CC = g++
 
 # compiler flags:
-CFLAGS  = -g -Wall
+CFLAGS  = -g -Wall -static-libgcc -static-libstdc++ -static
 
 # The build target 
 TARGET = cheat
